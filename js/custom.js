@@ -10,7 +10,6 @@ $(document).ready(function(){
 	$(".dropdown-menu  a").click(function(){
         $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
         $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
-        $(this).parents(".dropdown").find('.dropdown-toggle').val($(this).data('value'));
         var abc = $(this).data('value');
         if(abc == 1){
           $(".select-input-data").removeClass("value2");

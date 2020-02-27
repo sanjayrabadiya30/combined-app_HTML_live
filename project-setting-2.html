@@ -14,7 +14,6 @@
   <link href="css/sweetalert.css" rel="stylesheet">
   <link href="css/sweetalert.css" rel="stylesheet">
   <link href="css/style.css?v=1.1" rel="stylesheet">
-  <link href="css/combined.css" rel="stylesheet">
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -111,18 +110,6 @@
                         <input type="text" class="input-field form-control" placeholder="Project ID" name="p_key"
                           value="00001">
                       </div>
-                      <div class="input-group select-input-group new-pro-lang-select">
-                        <div class="input-group-prepend "> 
-                          <span class="input-group-text">
-                            <img src="images/icon/language.jpg" title="Language" alt="Language" />
-                          </span> 
-                        </div>
-                        <label>Language</label>                        
-                        <select class="selection-box ">                                                               
-                          <option value="cc++">CC++</option>
-                          <option value="java">Java</option>
-                        </select>
-                      </div>   
 
                       <div class="multiple-dropdown">
                         <span class="input-group-text"><img src="images/icon/source-code-path.png" title="Source code path" alt="Source code path"></span>
@@ -156,13 +143,26 @@
                           <span class="input-group-text"><img src="images/icon/relative-path.png" class="relative-path-image" title="Branch" alt="branch" /></span> 
                         </div>
                         <input type="text" class="input-field form-control" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxx" name="branch">
-                      </div>                     
+                      </div>
+                      <!-- <div class="input-group">
+                      <div class="input-group-prepend"> <span class="input-group-text"><img src="images/icon/source-code-path.png"  title="Source code path" alt="Source code path"></span> </div>
+                      <input type="text" class="input-field form-control" placeholder="Source code path"  name="Source_code_path">
+                    </div> -->
                       <div class="input-group select-input-group preset-new-dropdown">
                         <div class="input-group-prepend"> 
                           <span class="input-group-text"><img src="images/icon/relative-path.png" class="relative-path-image" title="Build File Path" alt="Build File Path" /></span> 
                         </div>
                         <input type="text" class="input-field form-control" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxx" name="build_file_path">                        
-                      </div>                      
+                      </div>
+                      <!-- Preset select field-->
+                      <!-- <div class="input-group select-input-group preset-new-dropdown">
+                        <div class="input-group-prepend "> <span class="input-group-text"><img
+                              src="images/icon/preset-icon.png" title="Preset" alt="Preset"></span> </div>
+                        <select class="selection-box">
+                          <option value="Default_Preset">Preset</option>
+                          <option value="Default_Preset">Default Preset</option>
+                        </select>
+                      </div> -->
                       <div class="input-group select-input-group preset-new-dropdown">
                         <div class="input-group-prepend "> <span class="input-group-text"><img
                               src="images/icon/preset-icon.png" title="Recent Project Configuration"
